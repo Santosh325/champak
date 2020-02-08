@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="150dp"
+            android:layout_weight="3.5"
+            android:src="@drawable/champak" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.8"
+            android:gravity="bottom"
+            android:text="Welcome,"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.6"
+            android:text="Sign in to Continue"
+            android:textColor="#989898"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColor="@android:color/white"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/round"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_weight="0.8"
+            android:hint="Username"
+            android:textColorHint="#989898" />
+
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:drawablePadding="10dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/round"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_weight="0.8"
+            android:hint="Password"
+            android:textColorHint="#989898" />
+        <Button
+            android:id="@+id/login"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <View
+            android:background="#C4C4C4"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <Button
+            android:id="@+id/create"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:text="Create Account"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    <LinearLayout
+        android:layout_marginVertical="20dp"
+        android:layout_weight="1.8"
+        android:weightSum="2.5"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginLeft="35dp"
+            android:textSize="18sp"
+            android:gravity="bottom"
+            android:textAlignment="textEnd"
+            android:layout_weight="1.9"
+            android:textColor="#C4C4C4"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Created By Santosh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/icon"
+            android:layout_marginRight="35dp"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+

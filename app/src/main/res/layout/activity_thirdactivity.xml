@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:weightSum="4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/ac"
+        android:layout_weight="1.7"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="Enter details"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/projects"
+        android:textColorHint="@android:color/white"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:hint="Enter Projects you created"
+        android:background="@drawable/roundthree"
+        android:layout_marginHorizontal="45dp"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/followers"
+        android:textColorHint="@android:color/white"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:hint="Followers"
+        android:background="@drawable/roundthree"
+        android:layout_marginHorizontal="45dp"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/repository"
+        android:textColorHint="@android:color/white"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:hint="Repository"
+        android:background="@drawable/roundthree"
+        android:layout_marginHorizontal="45dp"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/nextProfile"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="Go to Profile"
+        android:background="@drawable/bthree"
+        android:layout_marginHorizontal="100dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
